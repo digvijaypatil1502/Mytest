@@ -1,0 +1,63 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.optiroute:backend >------------------------
+[INFO] Building backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 34 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/sam15/OneDrive/Desktop/Project2/OptiRouteProjectWithAdmin/OptiRouteProjectWithAdmin/optiroute/backend/src/main/java/com/optiroute/controller/AdminController.java:[60,35] cannot find symbol
+  symbol:   method getDate()
+  location: variable r of type com.optiroute.model.DirectRoute
+[ERROR] /C:/Users/sam15/OneDrive/Desktop/Project2/OptiRouteProjectWithAdmin/OptiRouteProjectWithAdmin/optiroute/backend/src/main/java/com/optiroute/controller/AdminController.java:[60,58] cannot find symbol
+  symbol:   method getDate()
+  location: variable r of type com.optiroute.model.DirectRoute
+[ERROR] /C:/Users/sam15/OneDrive/Desktop/Project2/OptiRouteProjectWithAdmin/OptiRouteProjectWithAdmin/optiroute/backend/src/main/java/com/optiroute/service/AdminService.java:[46,37] cannot find symbol
+  symbol:   method createToken(java.lang.String,java.lang.String)
+  location: variable jwtTokenProvider of type com.optiroute.security.JwtTokenProvider
+[ERROR] /C:/Users/sam15/OneDrive/Desktop/Project2/OptiRouteProjectWithAdmin/OptiRouteProjectWithAdmin/optiroute/backend/src/main/java/com/optiroute/service/AdminService.java:[51,40] cannot find symbol
+  symbol:   method createToken(java.lang.String,java.lang.String)
+  location: variable jwtTokenProvider of type com.optiroute.security.JwtTokenProvider
+[ERROR] /C:/Users/sam15/OneDrive/Desktop/Project2/OptiRouteProjectWithAdmin/OptiRouteProjectWithAdmin/optiroute/backend/src/main/java/com/optiroute/service/AdminService.java:[86,14] cannot find symbol
+  symbol:   method setOperator(java.lang.String)
+  location: variable route of type com.optiroute.model.DirectRoute
+[INFO] 5 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.637 s
+[INFO] Finished at: 2026-02-01T00:40:17+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/sam15/OneDrive/Desktop/Project2/OptiRouteProjectWithAdmin/OptiRouteProjectWithAdmin/optiroute/backend/src/main/java/com/optiroute/controller/AdminController.java:[60,35] cannot find symbol
+[ERROR]   symbol:   method getDate()
+[ERROR]   location: variable r of type com.optiroute.model.DirectRoute
+[ERROR] /C:/Users/sam15/OneDrive/Desktop/Project2/OptiRouteProjectWithAdmin/OptiRouteProjectWithAdmin/optiroute/backend/src/main/java/com/optiroute/controller/AdminController.java:[60,58] cannot find symbol
+[ERROR]   symbol:   method getDate()
+[ERROR]   location: variable r of type com.optiroute.model.DirectRoute
+[ERROR] /C:/Users/sam15/OneDrive/Desktop/Project2/OptiRouteProjectWithAdmin/OptiRouteProjectWithAdmin/optiroute/backend/src/main/java/com/optiroute/service/AdminService.java:[46,37] cannot find symbol
+[ERROR]   symbol:   method createToken(java.lang.String,java.lang.String)
+[ERROR]   location: variable jwtTokenProvider of type com.optiroute.security.JwtTokenProvider
+[ERROR] /C:/Users/sam15/OneDrive/Desktop/Project2/OptiRouteProjectWithAdmin/OptiRouteProjectWithAdmin/optiroute/backend/src/main/java/com/optiroute/service/AdminService.java:[51,40] cannot find symbol
+[ERROR]   symbol:   method createToken(java.lang.String,java.lang.String)
+[ERROR]   location: variable jwtTokenProvider of type com.optiroute.security.JwtTokenProvider
+[ERROR] /C:/Users/sam15/OneDrive/Desktop/Project2/OptiRouteProjectWithAdmin/OptiRouteProjectWithAdmin/optiroute/backend/src/main/java/com/optiroute/service/AdminService.java:[86,14] cannot find symbol
+[ERROR]   symbol:   method setOperator(java.lang.String)
+[ERROR]   location: variable route of type com.optiroute.model.DirectRoute
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
